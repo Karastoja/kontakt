@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+    color: #000;
+
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+header {
+    position: fixed;
+    height: 100px;
+    background-color: #005200;
+    width: 100%;
+    z-index: 12;
+}
+
+.bird {
+    position: absolute;
+    left: 360px;
+    top: 10px;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+    line-height: 100px;
+}
+
+.logo a {
+    text-decoration: none;
+	font-size: 30px;
+	font-family: 'Oswald', sans-serif;
+	color: #f6edfd;
+	letter-spacing: 5px;
+}
+
+
+
+nav {
+    float: right;
+    line-height: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    color: #F6EDFD;
+    margin-left: 40px;
+}
+
+.banner {
+    width: 100%;
+    height: 500px;
+    position: fixed;
+    top: 100px;
+    background-image: url(../pictures/las.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner h2 {
+    padding-top: 8%;
+    font-size: 70px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.content {
+    width: 100%;
+    position: relative;
+    top: 450px;
+    background: #319831;
+    height: fit-content;
+}
+
+.content h2 {
+    letter-spacing: 4px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding-top: 30px;
+    font-size: 40px;
+    margin: 0;
+}
+
+.content p {
+    padding: 2% 0;
+    line-height: 30px;
+}
+
+section {
+    height: fit-content;
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+    margin-top: 40px;
+    padding-top: 100px;
+    border-top: solid #262626 1px;
+}
+
+section span {
+    font-size: 24px;
+}
+
+
+.linkedin {
+    background-color: #9ED14B;
+    width: fit-content;
+    height: fit-content;
+}
+
+.linkedin a {
+    width: 100px;
+    height: 100px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 3em;
+}
+
+.wide {
+    grid-column: 1/4;
+    text-align: center;
+}
+
+i {
+    font-size: 4em;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+
+
